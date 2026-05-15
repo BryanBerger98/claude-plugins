@@ -1,0 +1,46 @@
+{
+  "name": "bryanberger",
+  "owner": {
+    "name": "Bryan Berger",
+    "email": "contact@bryanberger.dev"
+  },
+  "metadata": {
+    "description": "Personal Claude Code plugins by Bryan Berger.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "snap",
+      "description": "Workflow produit Claude Code: 6 skills enchaînables (define → ticket → wireframe → design → develop → qa) + 2 utilitaires doc. Adaptatif plateformes tickets (GitHub/GitLab/JIRA), docs (AFFiNE/Notion), wireframes (Frame0/Penpot/Figma) et maquettes hi-fi (Penpot/Figma).",
+      "source": {
+        "source": "github",
+        "repo": "BryanBerger98/snapship-plugin",
+        "ref": "v1.0.0"
+      },
+      "version": "1.0.0",
+      "author": {
+        "name": "Bryan Berger",
+        "email": "contact@bryanberger.dev"
+      },
+      "homepage": "https://github.com/BryanBerger98/snapship-plugin",
+      "repository": "https://github.com/BryanBerger98/snapship-plugin",
+      "license": "MIT",
+      "category": "workflow",
+      "keywords": [
+        "workflow",
+        "product-management",
+        "tickets",
+        "wireframes",
+        "design",
+        "code-review",
+        "qa",
+        "affine",
+        "notion",
+        "frame0",
+        "penpot",
+        "figma"
+      ],
+      "strict": false
+    }
+  ]
+}
