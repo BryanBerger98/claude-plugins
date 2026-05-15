@@ -6,8 +6,10 @@ Marketplace personnelle pour Claude Code. Hébergée sur GitHub, listée via
 ## Install
 
 ```text
-/plugin marketplace add bryanberger/claude-plugins
+/plugin marketplace add BryanBerger98/claude-plugins
 ```
+
+> Le repo GitHub vit sous `BryanBerger98/` (username réel). Le nom de marketplace `bryanberger` (alias défini dans `marketplace.json`) sert uniquement pour `/plugin install snap@bryanberger`.
 
 Puis installe un plugin :
 
@@ -26,7 +28,7 @@ Détails : [BryanBerger98/snapship-plugin](https://github.com/BryanBerger98/snap
 ## Test local
 
 ```bash
-git clone https://github.com/bryanberger/claude-plugins ~/.claude/marketplaces/bryanberger
+git clone https://github.com/BryanBerger98/claude-plugins ~/.claude/marketplaces/bryanberger
 # puis dans claude :
 /plugin marketplace add ~/.claude/marketplaces/bryanberger
 /plugin install snap@bryanberger
