@@ -21,9 +21,9 @@ Puis installe un plugin :
 
 | Nom    | Version | Description                                                                                                                     |
 | ------ | ------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| `snap` | 1.1.0   | Workflow produit autonome : 6 skills enchaînables (`define → ticket → wireframe → design → develop → qa`) + 2 utilitaires doc. |
+| `snap` | 2.0.0   | Workflow produit→livraison : 10 skills enchaînables (`define → ticket → wireframe → ds → design → develop → review → tests → qa`), orchestrées par `fulldev` (boucle `develop→tests→review→qa`). |
 
-Détails : [BryanBerger98/snapship-plugin](https://github.com/BryanBerger98/snapship-plugin).
+Détails : [BryanBerger98/snap](https://github.com/BryanBerger98/snap).
 
 ## Test local
 

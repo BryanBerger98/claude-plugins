@@ -11,34 +11,40 @@
   "plugins": [
     {
       "name": "snap",
-      "description": "Workflow produit Claude Code: 6 skills enchaînables (define → ticket → wireframe → design → develop → qa) + 2 utilitaires doc. Adaptatif plateformes tickets (GitHub/GitLab/JIRA), docs (AFFiNE/Notion), wireframes (Frame0/Penpot/Figma) et maquettes hi-fi (Penpot/Figma).",
+      "description": "Workflow produit→livraison Claude Code: 10 skills enchaînables — define → ticket → wireframe → ds → design → develop → review → tests → qa, orchestrées par fulldev (boucle develop→tests→review→qa jusqu'au vert). Multi-provider exclusif: tickets (GitHub Projects/GitLab/JIRA), docs (repository/Notion/AFFiNE), design via MCP (Penpot/Figma), code host (GitHub/GitLab).",
       "source": {
         "source": "github",
-        "repo": "BryanBerger98/snapship-plugin",
-        "ref": "v1.2.0"
+        "repo": "BryanBerger98/snap",
+        "ref": "v2.0.0"
       },
-      "version": "1.2.0",
+      "version": "2.0.0",
       "author": {
         "name": "Bryan Berger",
         "email": "contact@bryanberger.dev"
       },
-      "homepage": "https://github.com/BryanBerger98/snapship-plugin",
-      "repository": "https://github.com/BryanBerger98/snapship-plugin",
+      "homepage": "https://github.com/BryanBerger98/snap",
+      "repository": "https://github.com/BryanBerger98/snap",
       "license": "MIT",
       "category": "workflow",
       "keywords": [
         "workflow",
         "product-management",
+        "prd",
         "tickets",
         "wireframes",
-        "design",
+        "design-system",
+        "develop",
         "code-review",
+        "tests",
         "qa",
+        "orchestration",
         "affine",
         "notion",
-        "frame0",
         "penpot",
-        "figma"
+        "figma",
+        "github",
+        "gitlab",
+        "jira"
       ],
       "strict": false
     }
