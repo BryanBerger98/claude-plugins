@@ -11,13 +11,13 @@
   "plugins": [
     {
       "name": "snap",
-      "description": "Workflow produit→livraison Claude Code: 13 skills enchaînables — define → brainstorm → roadmap → ticket → wireframe → ds → design → develop → review → tests → qa, orchestrées par fulldev (boucle develop→tests→review→qa jusqu'au vert). Définition produit en phases verrouillées; config posée manuellement via /snap:init. Multi-provider exclusif: tickets (GitHub Projects/GitLab/JIRA), docs (repository/Notion/AFFiNE), design via MCP (Penpot/Figma), code host (GitHub/GitLab).",
+      "description": "Workflow produit→livraison Claude Code: 13 skills enchaînables — define → brainstorm → roadmap → ticket → wireframe → ds → design → develop → review → tests → qa, orchestrées par fulldev (boucle develop→tests→review→qa jusqu'au vert). Définition produit en phases verrouillées; config posée manuellement via /snap:init. Multi-provider exclusif: tickets (GitHub Projects/GitLab/JIRA), docs (repository/Notion), design via MCP (Penpot/Figma), code host (GitHub/GitLab).",
       "source": {
         "source": "github",
         "repo": "BryanBerger98/snap",
-        "ref": "v2.2.0"
+        "ref": "v2.3.0"
       },
-      "version": "2.2.0",
+      "version": "2.3.0",
       "author": {
         "name": "Bryan Berger",
         "email": "contact@bryanberger.dev"
@@ -38,7 +38,6 @@
         "tests",
         "qa",
         "orchestration",
-        "affine",
         "notion",
         "penpot",
         "figma",
