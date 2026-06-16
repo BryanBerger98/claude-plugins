@@ -21,7 +21,7 @@ Puis installe un plugin :
 
 | Nom    | Version | Description                                                                                                                     |
 | ------ | ------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| `snap` | 2.0.0   | Workflow produit→livraison : 10 skills enchaînables (`define → ticket → wireframe → ds → design → develop → review → tests → qa`), orchestrées par `fulldev` (boucle `develop→tests→review→qa`). |
+| `snap` | 2.4.0   | Workflow produit→livraison : 13 skills enchaînables (`define → brainstorm → roadmap → ticket → wireframe → ds → design → develop → review → tests → qa`), orchestrées par `fulldev` (boucle `develop→tests→review→qa`). |
 
 Détails : [BryanBerger98/snap](https://github.com/BryanBerger98/snap).
 
